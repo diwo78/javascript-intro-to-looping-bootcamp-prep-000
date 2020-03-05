@@ -29,7 +29,7 @@ function incrementVariable() {
 }
 
 function doWhileLoop (integer) {
-  if (integer === 0) {
+  if (integer === 10) {
   do {
     console.log("I run once regardless")
   } while (incrementVariable() < integer)
